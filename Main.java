@@ -1,7 +1,15 @@
 public class Main {
 
     public static void main(String[] args) {
-
+//**************************ArrayList*****************************************
+        MyArrayList<String> myArrayList = new MyArrayList<>();
+        myArrayList.add("Aram");
+        myArrayList.add("Hayk");
+        myArrayList.add("Grigor");
+        for (String e : myArrayList) {
+            System.out.println(e);
+        }
+//**************************SinglyLinkedList***********************************
         SinglyLinkedList<Integer> mySinglyLinkedList = new SinglyLinkedList<>();
 
         mySinglyLinkedList.add(2);
